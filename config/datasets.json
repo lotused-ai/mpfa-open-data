@@ -1,0 +1,112 @@
+{
+  "source": "https://data.gov.hk/en-datasets/provider/mpfa",
+  "provider": "Mandatory Provident Fund Schemes Authority",
+  "datasets": [
+    {
+      "slug": "number-of-mpf-trustees-schemes-and-funds",
+      "title": "Number of MPF trustees, schemes and funds",
+      "update_frequency": "monthly",
+      "dataset_url": "https://data.gov.hk/en-data/dataset/mpfa-mpfa-number-of-mpf-trustees-schemes-and-funds",
+      "dictionary_url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/dictionary/numberofmpftrusteesschemesandfunds-data-dictionary.pdf",
+      "resources": [
+        {"language": "en", "format": "csv", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds02_en.csv"},
+        {"language": "tc", "format": "csv", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds02_tc.csv"},
+        {"language": "sc", "format": "csv", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds02_sc.csv"},
+        {"language": "en", "format": "xlsx", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds01_en.xlsx"},
+        {"language": "tc", "format": "xlsx", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds01_tc.xlsx"},
+        {"language": "sc", "format": "xlsx", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds01_sc.xlsx"}
+      ]
+    },
+    {
+      "slug": "contributions-received-and-benefits-paid",
+      "title": "Contributions received and benefits paid of MPF Schemes",
+      "update_frequency": "quarterly",
+      "dataset_url": "https://data.gov.hk/en-data/dataset/mpfa-mpfa-contributions-received-and-benefits-paid-of-mpf-schemes",
+      "dictionary_url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/dictionary/contributionsreceivedandbenefitspaid-data-dictionary.pdf",
+      "resources": [
+        {"language": "en", "format": "csv", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/contributions_received_and_benefits_paid02_en.csv"},
+        {"language": "tc", "format": "csv", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/contributions_received_and_benefits_paid02_tc.csv"},
+        {"language": "sc", "format": "csv", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/contributions_received_and_benefits_paid02_sc.csv"},
+        {"language": "en", "format": "xlsx", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/contributions_received_and_benefits_paid01_en.xlsx"},
+        {"language": "tc", "format": "xlsx", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/contributions_received_and_benefits_paid01_tc.xlsx"},
+        {"language": "sc", "format": "xlsx", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/contributions_received_and_benefits_paid01_sc.xlsx"}
+      ]
+    },
+    {
+      "slug": "number-of-mpf-accounts",
+      "title": "Number of MPF accounts",
+      "update_frequency": "quarterly",
+      "dataset_url": "https://data.gov.hk/en-data/dataset/mpfa-mpfa-number-of-mpf-accounts",
+      "dictionary_url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/dictionary/numberofmpfaccounts-data-dictionary.pdf",
+      "resources": [
+        {"language": "en", "format": "csv", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_accounts02_en.csv"},
+        {"language": "tc", "format": "csv", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_accounts02_tc.csv"},
+        {"language": "sc", "format": "csv", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_accounts02_sc.csv"},
+        {"language": "en", "format": "xlsx", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_accounts01_en.xlsx"},
+        {"language": "tc", "format": "xlsx", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_accounts01_tc.xlsx"},
+        {"language": "sc", "format": "xlsx", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_accounts01_sc.xlsx"}
+      ]
+    },
+    {
+      "slug": "net-asset-values-of-approved-constituent-funds",
+      "title": "Net asset values of approved constituent funds",
+      "update_frequency": "quarterly",
+      "dataset_url": "https://data.gov.hk/en-data/dataset/mpfa-mpfa-net-asset-values-of-approved-constituent-funds",
+      "dictionary_url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/dictionary/netassetvaluesofapprovedconstituentfunds-data-dictionary.pdf",
+      "resources": [
+        {"language": "en", "format": "csv", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/net_asset_values_of_approved_constituent_funds02_en.csv"},
+        {"language": "tc", "format": "csv", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/net_asset_values_of_approved_constituent_funds02_tc.csv"},
+        {"language": "sc", "format": "csv", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/net_asset_values_of_approved_constituent_funds02_sc.csv"},
+        {"language": "en", "format": "xlsx", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/net_asset_values_of_approved_constituent_funds01_en.xlsx"},
+        {"language": "tc", "format": "xlsx", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/net_asset_values_of_approved_constituent_funds01_tc.xlsx"},
+        {"language": "sc", "format": "xlsx", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/net_asset_values_of_approved_constituent_funds01_sc.xlsx"}
+      ]
+    },
+    {
+      "slug": "mpf-assets-invested-in-dis-constituent-funds",
+      "title": "MPF assets invested in Default Investment Strategy constituent funds",
+      "update_frequency": "quarterly",
+      "dataset_url": "https://data.gov.hk/en-data/dataset/mpfa-mpfa-mpf-assets-invested-in-dis-constituent-funds",
+      "dictionary_url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/dictionary/mpfassetsinvestedindisconstituentfunds-data-dictionary.pdf",
+      "resources": [
+        {"language": "en", "format": "csv", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/mpf_assets_invested_in_dis_constituent_funds02_en.csv"},
+        {"language": "tc", "format": "csv", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/mpf_assets_invested_in_dis_constituent_funds02_tc.csv"},
+        {"language": "sc", "format": "csv", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/mpf_assets_invested_in_dis_constituent_funds02_sc.csv"},
+        {"language": "en", "format": "xlsx", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/mpf_assets_invested_in_dis_constituent_funds01_en.xlsx"},
+        {"language": "tc", "format": "xlsx", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/mpf_assets_invested_in_dis_constituent_funds01_tc.xlsx"},
+        {"language": "sc", "format": "xlsx", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/mpf_assets_invested_in_dis_constituent_funds01_sc.xlsx"}
+      ]
+    },
+    {
+      "slug": "number-of-accounts-investing-in-dis-constituent-funds",
+      "title": "Number of accounts investing in Default Investment Strategy constituent funds",
+      "update_frequency": "quarterly",
+      "dataset_url": "https://data.gov.hk/en-data/dataset/mpfa-mpfa-number-of-accounts-investing-in-dis-constituent-funds",
+      "dictionary_url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/dictionary/numberofaccountsinvestingindisconstituentfunds-data-dictionary.pdf",
+      "resources": [
+        {"language": "en", "format": "csv", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_accounts_investing_in_dis_constituent_funds02_en.csv"},
+        {"language": "tc", "format": "csv", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_accounts_investing_in_dis_constituent_funds02_tc.csv"},
+        {"language": "sc", "format": "csv", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_accounts_investing_in_dis_constituent_funds02_sc.csv"},
+        {"language": "en", "format": "xlsx", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_accounts_investing_in_dis_constituent_funds01_en.xlsx"},
+        {"language": "tc", "format": "xlsx", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_accounts_investing_in_dis_constituent_funds01_tc.xlsx"},
+        {"language": "sc", "format": "xlsx", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_accounts_investing_in_dis_constituent_funds01_sc.xlsx"}
+      ]
+    },
+    {
+      "slug": "number-of-mpf-intermediaries",
+      "title": "Number of MPF intermediaries",
+      "update_frequency": "monthly",
+      "dataset_url": "https://data.gov.hk/en-data/dataset/mpfa-mpfa-number-of-mpf-intermediaries",
+      "dictionary_url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/dictionary/numberofmpfintermediaries-data-dictionary.pdf",
+      "resources": [
+        {"language": "en", "format": "csv", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries02_en.csv"},
+        {"language": "tc", "format": "csv", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries02_tc.csv"},
+        {"language": "sc", "format": "csv", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries02_sc.csv"},
+        {"language": "en", "format": "xlsx", "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries01_en.xlsx"},
+        {"language": "tc", "format": "xlsx", "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries01_tc.xlsx"},
+        {"language": "sc", "format": "xlsx", "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries01_sc.xlsx"}
+      ]
+    }
+  ]
+}
+

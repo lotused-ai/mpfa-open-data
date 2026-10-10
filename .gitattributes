@@ -1,0 +1,4 @@
+# Keep source downloads byte-for-byte reproducible. GitHub can still render CSV files.
+*.csv text eol=lf
+*.xlsx binary
+*.pdf binary
