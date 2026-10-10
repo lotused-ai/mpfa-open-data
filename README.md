@@ -16,7 +16,7 @@ The repository tracks seven MPFA datasets:
 
 For each dataset, the updater downloads the English, Traditional Chinese and Simplified Chinese resources in CSV and XLSX format, together with the published data dictionary PDF.
 
-The source catalogue and resource URLs are maintained in [`config/datasets.json`](config/datasets.json). Current files are stored under [`data/current`](data/current), grouped by dataset, language and format. `data/manifest.json` records the fetch time, source URL, file size and SHA-256 hash for every downloaded resource.
+The source catalogue and resource URLs are maintained in [`config/datasets.json`](config/datasets.json). Current files are stored under [`data/current`](data/current), grouped by dataset, language and format. The generated [`data/latest.json`](data/latest.json) consolidates all CSV rows into one application-friendly file while preserving separate dataset and language sections. `data/manifest.json` records the fetch time, source URL, file size and SHA-256 hash for every downloaded resource.
 
 ## Updating locally
 
@@ -30,7 +30,7 @@ The command is idempotent: unchanged source files are not rewritten. If a source
 
 ## Automated updates
 
-The [GitHub Actions workflow](.github/workflows/update.yml) runs on the first day of every month at 02:17 UTC and can also be started manually. When downloaded files change, it commits the updated data and manifest back to the default branch.
+The [GitHub Actions workflow](.github/workflows/update.yml) runs on the 15th of every month at 02:17 UTC and can also be started manually. When downloaded files change, it commits the updated raw data, consolidated JSON and manifest back to the default branch.
 
 ## Attribution
 

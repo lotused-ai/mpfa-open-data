@@ -4,7 +4,9 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
+import io
 import json
 import shutil
 import sys
@@ -20,6 +22,7 @@ CONFIG_PATH = ROOT / "config" / "datasets.json"
 CURRENT_DIR = ROOT / "data" / "current"
 DICTIONARY_DIR = ROOT / "data" / "dictionaries"
 MANIFEST_PATH = ROOT / "data" / "manifest.json"
+LATEST_JSON_PATH = ROOT / "data" / "latest.json"
 USER_AGENT = "mpfa-open-data-github-action/1.0 (+https://github.com/)"
 
 
@@ -45,6 +48,63 @@ def filename_from_url(url: str) -> str:
 def load_json(path: Path) -> dict:
     with path.open(encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def read_csv_rows(path: Path) -> tuple[list[str], list[dict[str, str | None]]]:
+    raw = path.read_bytes()
+    last_error: UnicodeDecodeError | None = None
+    for encoding in ("utf-8-sig", "utf-16", "big5", "cp950", "gb18030"):
+        try:
+            text = raw.decode(encoding)
+            break
+        except UnicodeDecodeError as exc:
+            last_error = exc
+    else:
+        raise ValueError(f"Could not decode {path}: {last_error}")
+
+    reader = csv.DictReader(io.StringIO(text))
+    if reader.fieldnames is None:
+        raise ValueError(f"CSV has no header: {path}")
+    rows = [{key: value for key, value in row.items()} for row in reader]
+    return reader.fieldnames, rows
+
+
+def build_latest_json(config: dict, fetched_at: str) -> None:
+    datasets: dict[str, dict] = {}
+    for dataset in config["datasets"]:
+        consolidated = {
+            "title": dataset["title"],
+            "update_frequency": dataset["update_frequency"],
+            "dataset_url": dataset["dataset_url"],
+            "resources": {},
+        }
+        for resource in dataset["resources"]:
+            if resource["format"] != "csv":
+                continue
+            filename = filename_from_url(resource["url"])
+            path = CURRENT_DIR / dataset["slug"] / resource["language"] / filename
+            columns, rows = read_csv_rows(path)
+            consolidated["resources"][resource["language"]] = {
+                "format": "csv",
+                "source_url": resource["url"],
+                "source_path": path.relative_to(ROOT).as_posix(),
+                "columns": columns,
+                "rows": rows,
+            }
+        datasets[dataset["slug"]] = consolidated
+
+    payload = {
+        "generated_at": fetched_at,
+        "source": config["source"],
+        "provider": config["provider"],
+        "datasets": datasets,
+    }
+    LATEST_JSON_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    print(f"Wrote {LATEST_JSON_PATH.relative_to(ROOT)}")
 
 
 def main() -> int:
@@ -117,10 +177,19 @@ def main() -> int:
             manifest["resources"].append(record)
 
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
-    MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    MANIFEST_PATH.write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
     print(f"Wrote {MANIFEST_PATH.relative_to(ROOT)}")
     if manifest["errors"]:
         print(f"Completed with {len(manifest['errors'])} error(s)", file=sys.stderr)
+        return 1
+    try:
+        build_latest_json(config, fetched_at)
+    except (OSError, UnicodeError, ValueError, csv.Error) as exc:
+        print(f"Could not build latest.json: {exc}", file=sys.stderr)
         return 1
     return 0
 
