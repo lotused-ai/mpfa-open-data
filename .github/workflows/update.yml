@@ -2,8 +2,8 @@ name: Update MPFA open data
 
 on:
   schedule:
-    # Mid-month: the 15th of every month at 02:17 UTC.
-    - cron: "17 2 15 * *"
+    # Every Friday at 02:17 UTC.
+    - cron: "17 2 * * 5"
   workflow_dispatch:
 
 permissions:

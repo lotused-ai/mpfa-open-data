@@ -30,7 +30,7 @@ The command is idempotent: unchanged source files are not rewritten. If a source
 
 ## Automated updates
 
-The [GitHub Actions workflow](.github/workflows/update.yml) runs on the 15th of every month at 02:17 UTC and can also be started manually. When downloaded files change, it commits the updated raw data, consolidated JSON and manifest back to the default branch.
+The [GitHub Actions workflow](.github/workflows/update.yml) runs every Friday at 02:17 UTC and can also be started manually. When downloaded files change, it commits the updated raw data, consolidated JSON and manifest back to the default branch.
 
 ## Attribution
 
