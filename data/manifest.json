@@ -1,7 +1,7 @@
 {
   "source": "https://data.gov.hk/en-datasets/provider/mpfa",
   "provider": "Mandatory Provident Fund Schemes Authority",
-  "fetched_at": "2026-10-10T12:38:22+00:00",
+  "fetched_at": "2026-10-10T15:52:14+00:00",
   "resources": [
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
