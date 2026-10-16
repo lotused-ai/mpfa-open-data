@@ -1,7 +1,7 @@
 {
   "source": "https://data.gov.hk/en-datasets/provider/mpfa",
   "provider": "Mandatory Provident Fund Schemes Authority",
-  "fetched_at": "2026-10-10T15:52:14+00:00",
+  "fetched_at": "2026-10-16T07:08:05+00:00",
   "resources": [
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
@@ -11,8 +11,8 @@
       "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds02_en.csv",
       "path": "data/current/number-of-mpf-trustees-schemes-and-funds/en/number_of_mpf_trustees_schemes_and_funds02_en.csv",
       "status": "ok",
-      "sha256": "829a30132fb87ca3b78ac6352efa5b939a69919e9ccc4f71e691ce2c260dbc8a",
-      "bytes": 2606
+      "sha256": "6ce7e49468b914eca66da6ae75e606fb2cd934ed057d8d12755a4ae77bd647e1",
+      "bytes": 2636
     },
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
@@ -22,8 +22,8 @@
       "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds02_tc.csv",
       "path": "data/current/number-of-mpf-trustees-schemes-and-funds/tc/number_of_mpf_trustees_schemes_and_funds02_tc.csv",
       "status": "ok",
-      "sha256": "037c7bdb6434f0b61eb938defb25fa5fc7d0a662c0686d34d2a4c2a86a2376c2",
-      "bytes": 2499
+      "sha256": "edb4908d2d63758d40e9fe0835db84ea8f3555bfa3373f92114c597b09ae619d",
+      "bytes": 2529
     },
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
@@ -33,8 +33,8 @@
       "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds02_sc.csv",
       "path": "data/current/number-of-mpf-trustees-schemes-and-funds/sc/number_of_mpf_trustees_schemes_and_funds02_sc.csv",
       "status": "ok",
-      "sha256": "8ff2cbc7ebebc5f490487361921ad8efa8be01a6dde39db7d80295d9d8bad380",
-      "bytes": 4906
+      "sha256": "c84ee42ca3d3015bb38b2a8f9cf7056ffe005b134c9c077b8afd3ce1ba962b50",
+      "bytes": 4966
     },
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
@@ -44,8 +44,8 @@
       "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds01_en.xlsx",
       "path": "data/current/number-of-mpf-trustees-schemes-and-funds/en/number_of_mpf_trustees_schemes_and_funds01_en.xlsx",
       "status": "ok",
-      "sha256": "4a4821d29dba91dd454a88632688e999a8ff63debddccb1af717e6c5bc57cfe7",
-      "bytes": 13224
+      "sha256": "f094531c9c950439c3d06c0eca40950c87ca64b012b2227555f608d4cd76a9db",
+      "bytes": 13262
     },
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
@@ -55,8 +55,8 @@
       "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds01_tc.xlsx",
       "path": "data/current/number-of-mpf-trustees-schemes-and-funds/tc/number_of_mpf_trustees_schemes_and_funds01_tc.xlsx",
       "status": "ok",
-      "sha256": "4a96d0d0b5b2c47285ec8e18bd26c11f20a65d50c21e6977e97f3abfe7ce97b0",
-      "bytes": 13259
+      "sha256": "10ae25246fae5bac148127d1f7d3a4715732dc47cf6483c19c801c2616dfe819",
+      "bytes": 13289
     },
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
@@ -66,8 +66,8 @@
       "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_trustees_schemes_and_funds01_sc.xlsx",
       "path": "data/current/number-of-mpf-trustees-schemes-and-funds/sc/number_of_mpf_trustees_schemes_and_funds01_sc.xlsx",
       "status": "ok",
-      "sha256": "6532c5d39feb5cc947610bcc073f44bd42695b49e95e474c769fde7e31079201",
-      "bytes": 13258
+      "sha256": "9dce88602bca29e4f78f43ed967921ddf2e372fd2c506aed4170007ec2de304a",
+      "bytes": 13294
     },
     {
       "dataset": "number-of-mpf-trustees-schemes-and-funds",
@@ -467,8 +467,8 @@
       "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries02_en.csv",
       "path": "data/current/number-of-mpf-intermediaries/en/number_of_mpf_intermediaries02_en.csv",
       "status": "ok",
-      "sha256": "45623197d8e760c3ea352eb25c35f3b01d8bbbbf3676228504bf777ea8bb5440",
-      "bytes": 1838
+      "sha256": "d34cfe1ca28e4360b6cba74752f66e4267797683910a5c3aae7fbe16a22e642d",
+      "bytes": 1858
     },
     {
       "dataset": "number-of-mpf-intermediaries",
@@ -478,8 +478,8 @@
       "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries02_tc.csv",
       "path": "data/current/number-of-mpf-intermediaries/tc/number_of_mpf_intermediaries02_tc.csv",
       "status": "ok",
-      "sha256": "761c8a25808a9b259e35a9b316566ccf1918c33c7bf41f82966fe1b0f7113aa5",
-      "bytes": 1794
+      "sha256": "5f488deb2e46ac5a5b6d19a562ed2a0bfce2c8d1583aabcbd217ce17206ee3db",
+      "bytes": 1816
     },
     {
       "dataset": "number-of-mpf-intermediaries",
@@ -489,8 +489,8 @@
       "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries02_sc.csv",
       "path": "data/current/number-of-mpf-intermediaries/sc/number_of_mpf_intermediaries02_sc.csv",
       "status": "ok",
-      "sha256": "4119556520aa90b8e495c4badd3c0bd553b773acf0e091d3b234c4e42914bf37",
-      "bytes": 3558
+      "sha256": "73c3853131a9ee693b8a969b8445b9d151fbfd2cf004cae1523dc719563dfe85",
+      "bytes": 3602
     },
     {
       "dataset": "number-of-mpf-intermediaries",
@@ -500,8 +500,8 @@
       "url": "https://www.mpfa.org.hk/en/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries01_en.xlsx",
       "path": "data/current/number-of-mpf-intermediaries/en/number_of_mpf_intermediaries01_en.xlsx",
       "status": "ok",
-      "sha256": "f7c7b51e344adec8b8b9fd0c1fb86b60e494520d6caf50c8d753aa2b5bfcceb0",
-      "bytes": 12354
+      "sha256": "a524f289716971493381972ccedee7f9506fbe6b8242ff3097beafda995775ec",
+      "bytes": 12389
     },
     {
       "dataset": "number-of-mpf-intermediaries",
@@ -511,8 +511,8 @@
       "url": "https://www.mpfa.org.hk/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries01_tc.xlsx",
       "path": "data/current/number-of-mpf-intermediaries/tc/number_of_mpf_intermediaries01_tc.xlsx",
       "status": "ok",
-      "sha256": "58efcc69a365d8f96384fb9d23ca93b9e6f6c64b4d9d6cdc1620abff1d94da59",
-      "bytes": 12361
+      "sha256": "a9564569ca9feaa171dad355e3c552f3ae27c30a9362b31b35a3b3c3cf345338",
+      "bytes": 12394
     },
     {
       "dataset": "number-of-mpf-intermediaries",
@@ -522,8 +522,8 @@
       "url": "https://www.mpfa.org.hk/sc/-/media/files/information-centre/research-and-statistics/other-reports/statistics/number_of_mpf_intermediaries01_sc.xlsx",
       "path": "data/current/number-of-mpf-intermediaries/sc/number_of_mpf_intermediaries01_sc.xlsx",
       "status": "ok",
-      "sha256": "4b519cbf1870882f1bdce57391b511aa2a2b88f04451775fb39d47e24207d2eb",
-      "bytes": 12366
+      "sha256": "3d73f6c4c3fefe9abfef7822aae92c6fef54082b3f6e26aaf03ce3669af205af",
+      "bytes": 12392
     },
     {
       "dataset": "number-of-mpf-intermediaries",
