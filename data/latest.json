@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T09:21:49+00:00",
+  "generated_at": "2026-11-13T09:29:21+00:00",
   "source": "https://data.gov.hk/en-datasets/provider/mpfa",
   "provider": "Mandatory Provident Fund Schemes Authority",
   "datasets": {
@@ -668,6 +668,14 @@
               "Number of approved constituent funds": "382",
               "Number of approved pooled investment funds": "318",
               "Number of approved index-tracking collective investment schemes": "264"
+            },
+            {
+              "As at": "31-10-2026",
+              "Number of approved trustees": "11",
+              "Number of registered schemes": "24",
+              "Number of approved constituent funds": "382",
+              "Number of approved pooled investment funds": "318",
+              "Number of approved index-tracking collective investment schemes": "268"
             }
           ]
         },
@@ -1331,6 +1339,14 @@
               "核准成分基金數目": "382",
               "核准匯集投資基金數目": "318",
               "核准緊貼指數集體投資計劃數目": "264"
+            },
+            {
+              "日期": "31-10-2026",
+              "核准受託人數目": "11",
+              "註冊計劃數目": "24",
+              "核准成分基金數目": "382",
+              "核准匯集投資基金數目": "318",
+              "核准緊貼指數集體投資計劃數目": "268"
             }
           ]
         },
@@ -1584,6 +1600,9 @@
             },
             {
               "日期\t核准受托人数目\t注册计划数目\t核准成分基金数目\t核准汇集投资基金数目\t核准紧贴指数集体投资计划数目": "30-09-2026\t11\t24\t382\t318\t264"
+            },
+            {
+              "日期\t核准受托人数目\t注册计划数目\t核准成分基金数目\t核准汇集投资基金数目\t核准紧贴指数集体投资计划数目": "31-10-2026\t11\t24\t382\t318\t268"
             }
           ]
         }
@@ -4337,6 +4356,11 @@
               "As at": "30-09-2026",
               "Number of principal intermediaries": "433",
               "Number of subsidiary intermediaries": "40960"
+            },
+            {
+              "As at": "31-10-2026",
+              "Number of principal intermediaries": "433",
+              "Number of subsidiary intermediaries": "41100"
             }
           ]
         },
@@ -4754,6 +4778,11 @@
               "日期": "30-09-2026",
               "主事中介人數目": "433",
               "附屬中介人數目": "40960"
+            },
+            {
+              "日期": "31-10-2026",
+              "主事中介人數目": "433",
+              "附屬中介人數目": "41100"
             }
           ]
         },
@@ -5007,6 +5036,9 @@
             },
             {
               "日期\t主事中介人数目\t附属中介人数目": "30-09-2026\t433\t40960"
+            },
+            {
+              "日期\t主事中介人数目\t附属中介人数目": "31-10-2026\t433\t41100"
             }
           ]
         }
